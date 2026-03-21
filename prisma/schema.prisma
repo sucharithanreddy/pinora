@@ -69,3 +69,24 @@ model LikedPin {
 
   @@unique([userId, pinId])
 }
+
+// Claimed artworks - Memory Wall
+model ClaimedArtwork {
+  id         String   @id @default(cuid())
+  seed       BigInt   @unique
+  ownerName  String
+  ownerEmail String
+  ownerNote  String?
+  title      String
+  artStyle   String
+  hueSeed    Int
+  satSeed    Int
+  lightSeed  Int
+  styleSeed  Int
+  shapeSeed  Int
+  positionSeed Int
+  sizeSeed   Int
+  stripeSessionId String?
+  paymentStatus String @default("pending")
+  claimedAt  DateTime @default(now())
+}

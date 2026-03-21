@@ -59,7 +59,7 @@ export function WallOfArt({ onViewChange }: WallOfArtProps) {
             Be the first to own an artwork and be remembered forever!
           </p>
           <p className="mt-1 text-xs text-[var(--text-muted)]">
-            Click any artwork and press "Own This Artwork" to make it yours for $1
+            Click any artwork and press "Own This Artwork" to make it yours for $5
           </p>
         </div>
       </section>
@@ -107,7 +107,7 @@ export function WallOfArt({ onViewChange }: WallOfArtProps) {
         <div className="mt-4 text-center">
           <p className="text-xs text-[var(--text-muted)]">
             <Sparkles className="mr-1 inline h-3 w-3" />
-            Own your unique artwork for just $1
+            Own your unique artwork for just $5
           </p>
         </div>
       )}

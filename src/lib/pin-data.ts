@@ -1,5 +1,8 @@
 import { Pin } from '@/types'
 
+// Categories (currently unused, kept for compatibility)
+export const CATEGORIES = ['All', 'Generative Art']
+
 const ADJECTIVES = [
   'Serene', 'Vibrant', 'Ethereal', 'Bold', 'Minimal', 'Lush', 'Dreamy', 'Cosmic',
   'Rustic', 'Refined', 'Golden', 'Moody', 'Airy', 'Warm', 'Crisp', 'Sultry',

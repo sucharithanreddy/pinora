@@ -426,7 +426,7 @@ export function PinoraApp() {
             className="mt-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 px-4 py-2 text-sm font-medium text-amber-600 transition-all hover:from-amber-500/30 hover:to-orange-500/30 dark:text-amber-400"
           >
             <Crown className="h-4 w-4" />
-            Be part of the Memory Wall forever — own for $1
+            Be part of the Memory Wall forever — own for $5
           </button>
 
           {/* Stats Bar */}
@@ -466,7 +466,7 @@ export function PinoraApp() {
             </span>
           </h1>
           <p className="mx-auto mt-3 max-w-[500px] text-sm leading-relaxed text-[var(--text-secondary)] sm:mt-4 sm:text-base">
-            Be part of the Memory Wall forever. Own any artwork for $1 — it becomes exclusively yours, displayed here for eternity.
+            Be part of the Memory Wall forever. Own any artwork for $5 — it becomes exclusively yours, displayed here for eternity.
           </p>
         </section>
       )}
